@@ -1,0 +1,60 @@
+body {
+    background-image: url("img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+    font-family: 'Solway', cursive;
+    font-size: 5rem;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), 
+                box-shadow 0.35s ease, 
+                background-color 0.35s ease, 
+                color 0.35s ease;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    transform: scale(1.12);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    background-color: #f4f4f4;
+    color: #000;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
